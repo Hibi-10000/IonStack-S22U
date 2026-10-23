@@ -13,8 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - name: Build
-        run: make PROJECT=SC51COMS1EZE3 clean preload root-helper
+        run: make PROJECT=SC51COMS1EZH1 clean preload root-helper
       - uses: actions/upload-artifact@v7
         with:
-          name: SC51COMS1EZE3
-          path: build/SC51COMS1EZE3/bin/
+          name: SC51COMS1EZH1
+          path: build/SC51COMS1EZH1/bin/
